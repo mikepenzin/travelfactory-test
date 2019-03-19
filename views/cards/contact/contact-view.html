@@ -1,0 +1,36 @@
+<link href="views/cards/contact/css/contact.css" rel="stylesheet">
+
+<div class="card">
+    <div class="card-info">
+        <div class="media d-flex">
+            <div class="align-self-center image-container">
+                <div class="d-flex justify-content-center">
+                    <img ng-src="{{ contactInfo.userpic }}" alt="{{ contactInfo.contactName }}" />
+                </div>
+                <div class="text-center pt-2 smaller-size">
+                    <strong>
+                        {{ contactInfo.company.role }}
+                    </strong>
+                </div>
+            </div>
+            <div class="media-body mt-2 mb-2">
+                <h4>
+                    {{ contactInfo.contactName }}
+                </h4>
+                <small>
+                    <i class="fas fa-map-marker-alt mr-2"></i>{{ contactInfo.address }}
+                </small>
+                <div class="mt-1 smaller-size">
+                    <strong>{{ contactInfo.company.companyName }}</strong>
+                    <div class="text-muted">
+                        {{ contactInfo.company.address }}
+                    </div>
+                    <div class="text-muted">
+                        {{ contactInfo.company.city }}
+                    </div>
+                </div>
+                <ng-transclude></ng-transclude>
+            </div>
+        </div>
+    </div>
+</div>

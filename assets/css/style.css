@@ -1,0 +1,38 @@
+html,
+body {
+    background-color: #f3f0eb;
+    color: #666;
+}
+
+.edit-icon,
+.delete-icon, .location-icon {
+    background-image: url('../img/sprite-icone.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.edit-icon {
+    height: 50px;
+    background-position: -5px -5px;
+}
+
+.delete-icon {
+    height: 50px;
+    background-position: -5px -143px;
+}
+
+.location-icon {
+    height: 50px;
+    background-position: -5px -143px;
+}
+
+.add-btn {
+    color: cadetblue;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.contact-btn {
+   cursor: pointer;
+    
+}
