@@ -29,11 +29,6 @@ contactModal.directive("contactModal", function() {
                     phoneNumber: ""
                 }
             }
-            
-            scope.validatePhonenumber = function(number) {
-                var phoneNumberPattern = /\+?\d+\s?\d*/;  
-                return phoneNumberPattern.test(number);
-            }
         }
     };
 
