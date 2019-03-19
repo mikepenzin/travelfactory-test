@@ -21,6 +21,10 @@
     transition: linear 0.5s;
 }
 
+.card-info:hover {
+    opacity: 1;
+}
+
 img {
     border-radius: 50%;
 }
